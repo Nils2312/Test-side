@@ -31,7 +31,7 @@ export const AboutView: React.FC = () => {
           <div className="relative h-[350px] md:h-[400px] hidden lg:block">
              <div className="absolute inset-0 border-2 border-[#e34b17] transform translate-x-4 translate-y-4" />
              <img 
-                 src="https://images.unsplash.com/photo-1595590424283-b8f17842773f?q=80&w=2070&auto=format&fit=crop" 
+                 src="https://images.unsplash.com/photo-1599677099973-995395c04be1?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                  alt="About Dojo"
                  className="w-full h-full object-cover filter grayscale contrast-125 relative z-10"
              />

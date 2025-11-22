@@ -21,21 +21,21 @@ export const INSTRUCTORS: Instructor[] = [
     name: "Rune Schou Henrichsen",
     rank: "8. Dan",
     bio: "Leder av Ju jitsu Norge. Til daglig underviser han i Oslo Ju jitsuklubb og Bærum Ju jitsuklubb",
-    image: "./filer/rune.jpg"
+    image: "https://images.unsplash.com/photo-1684909927604-8b3fbc21146a?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 2,
     name: "Karl Fredrik Skjørshammer",
     rank: "7. Dan",
     bio: "Bærum Ju Jutsu Klubb",
-    image: "https://picsum.photos/id/64/400/500"
+    image: "https://images.unsplash.com/photo-1684909927604-8b3fbc21146a?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 3,
     name: "Jan Erik Karlsen",
     rank: "5. Dan",
     bio: "Sentrum Kampsport - Sarpsborg",
-    image: "https://picsum.photos/id/91/400/500"
+    image: "https://images.unsplash.com/photo-1684909927604-8b3fbc21146a?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   }
 ];
 

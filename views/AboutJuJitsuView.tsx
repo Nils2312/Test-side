@@ -46,7 +46,7 @@ export const AboutJuJitsuView: React.FC = () => {
           <div className="relative h-[350px] md:h-[400px] hidden lg:block order-2 lg:order-1">
              <div className="absolute inset-0 border-2 border-[#e34b17] transform -translate-x-4 translate-y-4" />
              <img 
-                 src="https://images.unsplash.com/photo-1517438476312-10d79c077509?q=80&w=2070&auto=format&fit=crop" 
+                 src="https://images.unsplash.com/photo-1583684977172-528983104c31?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                  alt="Samurai History"
                  className="w-full h-full object-cover filter grayscale contrast-125 relative z-10"
              />
@@ -101,7 +101,7 @@ export const AboutJuJitsuView: React.FC = () => {
           <div className="relative h-[350px] md:h-[400px] hidden lg:block order-2 lg:order-2">
              <div className="absolute inset-0 border-2 border-[#e34b17] transform translate-x-4 translate-y-4" />
              <img 
-                 src="https://images.unsplash.com/photo-1615117970081-6355c201df32?q=80&w=2070&auto=format&fit=crop" 
+                 src="https://images.unsplash.com/photo-1644594570589-ef85bd03169f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                  alt="Modern Training"
                  className="w-full h-full object-cover filter grayscale contrast-125 relative z-10"
              />

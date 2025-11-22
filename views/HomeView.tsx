@@ -12,11 +12,11 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
   return (
     <>
       {/* Hero Section */}
-      <div className="relative h-screen w-full overflow-hidden flex items-center justify-center pt-16">
+      <div className="relative h-screen w-full overflow-hidden flex items-center justify-center pt-20">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
             <img 
-                src="https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?q=80&w=2069&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1585537884613-1a9bcd024983?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Ju Jitsu Training"
                 className="w-full h-full object-cover filter grayscale brightness-50"
             />
@@ -25,15 +25,15 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-10 text-center max-w-4xl px-4">
-          <h2 className="text-[#e34b17] font-bold tracking-[0.3em] uppercase mb-4 text-xs md:text-base animate-in fade-in slide-in-from-bottom-4 duration-700">
+        <div className="relative z-10 text-center max-w-4xl px-4 pt-20">
+          <h2 className="text-[#e34b17] font-bold tracking-[0.3em] uppercase mb-4 text-xs md:text-sm animate-in fade-in slide-in-from-bottom-4 duration-700">
             Norges Tøffeste Kampsportmiljø
           </h2>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-black uppercase text-white mb-6 tracking-tighter leading-[0.9] animate-in fade-in slide-in-from-bottom-6 duration-700 delay-100">
             MESTRE KUNSTEN AV <br/>
             SELVFORSVAR
           </h1>
-          <p className="text-gray-300 text-base md:text-lg max-w-xl mx-auto mb-10 font-light animate-in fade-in slide-in-from-bottom-8 duration-700 delay-200">
+          <p className="text-gray-300 text-sm md:text-base max-w-xl mx-auto mb-10 font-light animate-in fade-in slide-in-from-bottom-8 duration-700 delay-200">
             Ju Jitsu Norge tilbyr moderne trening med røtter i tradisjon. 
             Bli sterkere, tryggere og en del av et unikt fellesskap.
           </p>
@@ -81,7 +81,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
             <div className="relative h-[350px] md:h-[400px] hidden md:block order-2 md:order-1">
                 <div className="absolute inset-0 border-2 border-[#e34b17] transform -translate-x-4 translate-y-4" />
                 <img 
-                    src="https://images.unsplash.com/photo-1615117970081-6355c201df32?q=80&w=2070&auto=format&fit=crop" 
+                    src="https://images.unsplash.com/photo-1599677100542-907e96e98c09?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                     alt="Ju Jitsu Action"
                     className="w-full h-full object-cover filter grayscale contrast-125 relative z-10"
                 />
@@ -119,7 +119,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
             >
                 {/* Background Image */}
                 <img 
-                    src="https://images.unsplash.com/photo-1518619491930-37f2756fb864?q=80&w=1932&auto=format&fit=crop" 
+                    src="https://images.unsplash.com/photo-1688744248782-eb3194911ade?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                     alt="Kids Training" 
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 filter grayscale group-hover:grayscale-0"
                 />
@@ -145,7 +145,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
             >
                 {/* Background Image */}
                 <img 
-                    src="https://images.unsplash.com/photo-1595590424283-b8f17842773f?q=80&w=2070&auto=format&fit=crop" 
+                    src="https://images.unsplash.com/photo-1599677099973-995395c04be1?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                     alt="Adult Training" 
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 filter grayscale group-hover:grayscale-0"
                 />
