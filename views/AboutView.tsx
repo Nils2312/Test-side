@@ -7,18 +7,18 @@ export const AboutView: React.FC = () => {
     <div className="pt-20">
       {/* History & Mission */}
       <Section className="min-h-[60vh] flex flex-col justify-center border-b border-[#1a1a1a]">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <div className="space-y-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="space-y-6">
              <div>
-                <h2 className="text-[#e34b17] font-bold tracking-[0.3em] uppercase mb-2 text-sm">
+                <h2 className="text-[#e34b17] font-bold tracking-[0.3em] uppercase mb-2 text-xs">
                     Om Oss
                 </h2>
-                <h1 className="text-5xl font-black uppercase text-white leading-none">
+                <h1 className="text-4xl md:text-5xl font-black uppercase text-white leading-none">
                     Styrke Gjennom <br/>Fellesskap
                 </h1>
              </div>
              
-             <div className="space-y-6 text-gray-300 font-light leading-relaxed text-lg">
+             <div className="space-y-6 text-gray-300 font-light leading-relaxed text-base md:text-lg">
                 <p>
                     Ju Jitsu Norge er dedikert til å spre kunnskapen om en av verdens eldste og mest effektive kampsporter. Vi tror på en helhetlig tilnærming hvor mental styrke er like viktig som fysisk teknikk.
                 </p>
@@ -28,7 +28,7 @@ export const AboutView: React.FC = () => {
              </div>
           </div>
 
-          <div className="relative h-[400px] hidden lg:block">
+          <div className="relative h-[350px] md:h-[400px] hidden lg:block">
              <div className="absolute inset-0 border-2 border-[#e34b17] transform translate-x-4 translate-y-4" />
              <img 
                  src="https://images.unsplash.com/photo-1595590424283-b8f17842773f?q=80&w=2070&auto=format&fit=crop" 
@@ -41,11 +41,11 @@ export const AboutView: React.FC = () => {
 
       {/* Instructors Section */}
       <Section darker>
-        <div className="text-center mb-16">
-           <h2 className="text-[#e34b17] font-bold tracking-[0.3em] uppercase mb-4 text-sm">
+        <div className="text-center mb-12">
+           <h2 className="text-[#e34b17] font-bold tracking-[0.3em] uppercase mb-4 text-xs">
             Lederskap
           </h2>
-          <h1 className="text-4xl md:text-5xl font-black uppercase text-white">
+          <h1 className="text-3xl md:text-5xl font-black uppercase text-white">
             Våre Instruktører
           </h1>
         </div>
@@ -61,7 +61,7 @@ export const AboutView: React.FC = () => {
                 />
                 <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black to-transparent p-6 pt-20">
                     <span className="bg-[#e34b17] text-white text-xs font-bold px-2 py-1 mb-2 inline-block">{instructor.rank}</span>
-                    <h3 className="text-2xl font-bold text-white uppercase">{instructor.name}</h3>
+                    <h3 className="text-xl font-bold text-white uppercase">{instructor.name}</h3>
                 </div>
               </div>
               <div className="p-6">

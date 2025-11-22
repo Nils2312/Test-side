@@ -6,18 +6,18 @@ export const AboutJuJitsuView: React.FC = () => {
     <div className="pt-20">
       {/* Section 1: Philosophy (Text Left, Image Right) */}
       <Section className="min-h-[60vh] flex flex-col justify-center border-b border-[#1a1a1a]">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <div className="space-y-8 order-1 lg:order-1">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="space-y-6 order-1 lg:order-1">
              <div>
-                <h2 className="text-[#e34b17] font-bold tracking-[0.3em] uppercase mb-2 text-sm">
+                <h2 className="text-[#e34b17] font-bold tracking-[0.3em] uppercase mb-2 text-xs">
                     Filosofien
                 </h2>
-                <h1 className="text-5xl font-black uppercase text-white leading-none">
+                <h1 className="text-4xl md:text-5xl font-black uppercase text-white leading-none">
                     Den Myke Kunst
                 </h1>
              </div>
              
-             <div className="space-y-6 text-gray-300 font-light leading-relaxed text-lg">
+             <div className="space-y-6 text-gray-300 font-light leading-relaxed text-base md:text-lg">
                 <p>
                     Ju Jitsu (柔術) oversettes ofte som "myk kunst" eller "fleksibel teknikk". 
                     Kjernen i filosofien er ikke å møte kraft med motkraft, men heller å absorbere og omdirigere angriperens energi.
@@ -28,7 +28,7 @@ export const AboutJuJitsuView: React.FC = () => {
              </div>
           </div>
 
-          <div className="relative h-[400px] hidden lg:block order-2 lg:order-2">
+          <div className="relative h-[350px] md:h-[400px] hidden lg:block order-2 lg:order-2">
              <div className="absolute inset-0 border-2 border-[#e34b17] transform translate-x-4 translate-y-4" />
              <img 
                  src="https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=2070&auto=format&fit=crop" 
@@ -41,9 +41,9 @@ export const AboutJuJitsuView: React.FC = () => {
 
       {/* Section 2: History (Image Left, Text Right) */}
       <Section darker className="min-h-[60vh] flex flex-col justify-center border-b border-[#1a1a1a]">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           
-          <div className="relative h-[400px] hidden lg:block order-2 lg:order-1">
+          <div className="relative h-[350px] md:h-[400px] hidden lg:block order-2 lg:order-1">
              <div className="absolute inset-0 border-2 border-[#e34b17] transform -translate-x-4 translate-y-4" />
              <img 
                  src="https://images.unsplash.com/photo-1517438476312-10d79c077509?q=80&w=2070&auto=format&fit=crop" 
@@ -52,17 +52,17 @@ export const AboutJuJitsuView: React.FC = () => {
              />
           </div>
 
-          <div className="space-y-8 order-1 lg:order-2">
+          <div className="space-y-6 order-1 lg:order-2">
              <div>
-                <h2 className="text-[#e34b17] font-bold tracking-[0.3em] uppercase mb-2 text-sm">
+                <h2 className="text-[#e34b17] font-bold tracking-[0.3em] uppercase mb-2 text-xs">
                     Historien
                 </h2>
-                <h1 className="text-5xl font-black uppercase text-white leading-none">
+                <h1 className="text-4xl md:text-5xl font-black uppercase text-white leading-none">
                     Fra Samurai Til Sport
                 </h1>
              </div>
              
-             <div className="space-y-6 text-gray-300 font-light leading-relaxed text-lg">
+             <div className="space-y-6 text-gray-300 font-light leading-relaxed text-base md:text-lg">
                 <p>
                     Opprinnelig ble Ju Jitsu utviklet av samuraiene i det føydale Japan. Når sverdet knakk eller ble mistet på slagmarken, trengte krigeren et system for å forsvare seg ubevæpnet, ofte mot tungt rustede motstandere.
                 </p>
@@ -77,18 +77,18 @@ export const AboutJuJitsuView: React.FC = () => {
 
       {/* Section 3: Modern System (Text Left, Image Right) */}
       <Section className="min-h-[60vh] flex flex-col justify-center">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <div className="space-y-8 order-1 lg:order-1">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="space-y-6 order-1 lg:order-1">
              <div>
-                <h2 className="text-[#e34b17] font-bold tracking-[0.3em] uppercase mb-2 text-sm">
+                <h2 className="text-[#e34b17] font-bold tracking-[0.3em] uppercase mb-2 text-xs">
                     Systemet
                 </h2>
-                <h1 className="text-5xl font-black uppercase text-white leading-none">
+                <h1 className="text-4xl md:text-5xl font-black uppercase text-white leading-none">
                     Et Komplett Selvforsvar
                 </h1>
              </div>
              
-             <div className="space-y-6 text-gray-300 font-light leading-relaxed text-lg">
+             <div className="space-y-6 text-gray-300 font-light leading-relaxed text-base md:text-lg">
                 <p>
                     Ju Jitsu Norge tilbyr et komplett system som dekker alle distanser av kamp. Vi trener på slag og spark (atemi), kast og fellinger (nage waza), samt låser og kontroll på bakken (ne waza).
                 </p>
@@ -98,7 +98,7 @@ export const AboutJuJitsuView: React.FC = () => {
              </div>
           </div>
 
-          <div className="relative h-[400px] hidden lg:block order-2 lg:order-2">
+          <div className="relative h-[350px] md:h-[400px] hidden lg:block order-2 lg:order-2">
              <div className="absolute inset-0 border-2 border-[#e34b17] transform translate-x-4 translate-y-4" />
              <img 
                  src="https://images.unsplash.com/photo-1615117970081-6355c201df32?q=80&w=2070&auto=format&fit=crop" 

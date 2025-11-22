@@ -12,8 +12,8 @@ export const ContactView: React.FC = () => {
             {/* Contact Info */}
             <div className="space-y-12">
                 <div>
-                    <h1 className="text-5xl font-black uppercase text-white mb-6">Ta Kontakt</h1>
-                    <p className="text-gray-400 text-lg">
+                    <h1 className="text-4xl md:text-5xl font-black uppercase text-white mb-6">Ta Kontakt</h1>
+                    <p className="text-gray-400 text-base md:text-lg">
                         Har du spørsmål? Fyll ut skjemaet under, eller kom innom dojoen for en prat. Vi svarer så fort vi kan.
                     </p>
                 </div>
@@ -49,7 +49,7 @@ export const ContactView: React.FC = () => {
 
             {/* Form */}
             <div className="bg-[#121212] p-8 md:p-12 border border-[#1a1a1a]">
-                <h2 className="text-2xl font-bold text-white uppercase mb-8 flex items-center gap-4">
+                <h2 className="text-xl md:text-2xl font-bold text-white uppercase mb-8 flex items-center gap-4">
                     <span className="w-2 h-8 bg-[#e34b17]"></span>
                     Send Melding
                 </h2>

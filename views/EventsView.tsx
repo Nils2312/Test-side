@@ -7,7 +7,7 @@ export const EventsView: React.FC = () => {
     <div className="pt-20">
       <Section className="min-h-screen">
         <div className="text-center mb-16">
-            <h1 className="text-5xl font-black uppercase text-white mb-6">Arrangementer</h1>
+            <h1 className="text-4xl md:text-5xl font-black uppercase text-white mb-6">Arrangementer</h1>
             <p className="text-gray-400">Følg med på hva som skjer i Ju Jitsu Norge.</p>
         </div>
 
