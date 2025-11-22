@@ -51,7 +51,7 @@ export const CurriculumView: React.FC = () => {
           </div>
         </div>
 
-        <div className="max-w-3xl mx-auto animate-in slide-in-from-bottom-5 duration-500">
+        <div className="max-w-3xl mx-auto">
             {activeTab === 'barn' ? (
                 <div className="space-y-4">
                     <h3 className="text-2xl text-white font-bold uppercase mb-6 border-b border-[#333] pb-4">

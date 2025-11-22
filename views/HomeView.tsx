@@ -25,7 +25,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-10 text-center max-w-4xl px-4 animate-in fade-in zoom-in duration-700">
+        <div className="relative z-10 text-center max-w-4xl px-4">
           <h2 className="text-[#e34b17] font-bold tracking-[0.3em] uppercase mb-4 text-sm md:text-lg">
             Norges Tøffeste Kampsportmiljø
           </h2>

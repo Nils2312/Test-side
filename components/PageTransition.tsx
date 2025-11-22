@@ -6,7 +6,7 @@ interface PageTransitionProps {
 
 export const PageTransition: React.FC<PageTransitionProps> = ({ children }) => {
   return (
-    <div className="animate-fade-in-up w-full">
+    <div className="w-full">
       {children}
     </div>
   );

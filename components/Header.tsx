@@ -103,7 +103,7 @@ export const Header: React.FC<HeaderProps> = ({ currentView, onNavigate }) => {
 
       {/* Mobile Nav Overlay */}
       {mobileMenuOpen && (
-        <div className="lg:hidden absolute top-full left-0 w-full bg-[#0c0c0c] border-b border-[#e34b17] p-4 flex flex-col gap-4 shadow-2xl animate-in slide-in-from-top-5 max-h-[80vh] overflow-y-auto">
+        <div className="lg:hidden absolute top-full left-0 w-full bg-[#0c0c0c] border-b border-[#e34b17] p-4 flex flex-col gap-4 shadow-2xl max-h-[80vh] overflow-y-auto">
           {NAV_ITEMS.map((item) => (
             <button
               key={item.label}
