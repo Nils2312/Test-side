@@ -1,9 +1,10 @@
 export enum View {
   HOME = 'HOME',
-  CURRICULUM = 'CURRICULUM',
-  INSTRUCTORS = 'INSTRUCTORS',
-  INSPIRATION = 'INSPIRATION',
   ABOUT = 'ABOUT',
+  ABOUT_JUJITSU = 'ABOUT_JUJITSU',
+  CLUBS = 'CLUBS',
+  EVENTS = 'EVENTS',
+  CURRICULUM = 'CURRICULUM',
   CONTACT = 'CONTACT'
 }
 
@@ -20,9 +21,8 @@ export interface Instructor {
   image: string;
 }
 
-export interface BeltLevel {
-  color: string;
-  name: string;
-  description: string;
-  techniques: string[];
+export interface CurriculumItem {
+  label: string;
+  subLabel?: string;
+  pdfUrl?: string; // Placeholder for future PDF links
 }

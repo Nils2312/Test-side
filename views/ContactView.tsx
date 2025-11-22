@@ -12,9 +12,9 @@ export const ContactView: React.FC = () => {
             {/* Contact Info */}
             <div className="space-y-12">
                 <div>
-                    <h1 className="text-5xl font-black uppercase text-white mb-6">Start Reisen</h1>
+                    <h1 className="text-5xl font-black uppercase text-white mb-6">Ta Kontakt</h1>
                     <p className="text-gray-400 text-lg">
-                        Er du klar? Fyll ut skjemaet for en gratis og uforpliktende prøvetime, eller kom innom dojoen for en prat.
+                        Har du spørsmål? Fyll ut skjemaet under, eller kom innom dojoen for en prat. Vi svarer så fort vi kan.
                     </p>
                 </div>
 
@@ -67,20 +67,16 @@ export const ContactView: React.FC = () => {
 
                     <div className="space-y-2">
                         <label className="text-xs uppercase font-bold tracking-widest text-gray-500">Emne</label>
-                         <select className="w-full bg-[#0c0c0c] border border-[#333] p-4 text-white focus:border-[#e34b17] focus:outline-none transition-colors appearance-none">
-                            <option>Jeg vil ha prøvetime</option>
-                            <option>Spørsmål om barnetrening</option>
-                            <option>Annet</option>
-                        </select>
+                        <input type="text" className="w-full bg-[#0c0c0c] border border-[#333] p-4 text-white focus:border-[#e34b17] focus:outline-none transition-colors" placeholder="Hva gjelder det?" />
                     </div>
 
                     <div className="space-y-2">
                         <label className="text-xs uppercase font-bold tracking-widest text-gray-500">Melding</label>
-                        <textarea rows={5} className="w-full bg-[#0c0c0c] border border-[#333] p-4 text-white focus:border-[#e34b17] focus:outline-none transition-colors" placeholder="Hva lurer du på?"></textarea>
+                        <textarea rows={5} className="w-full bg-[#0c0c0c] border border-[#333] p-4 text-white focus:border-[#e34b17] focus:outline-none transition-colors" placeholder="Skriv din melding her..."></textarea>
                     </div>
 
                     <Button type="submit" fullWidth className="mt-4">
-                        Send Forespørsel
+                        Send Melding
                     </Button>
                 </form>
             </div>

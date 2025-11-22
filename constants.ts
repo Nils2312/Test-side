@@ -1,77 +1,57 @@
-import { NavItem, View, BeltLevel, Instructor } from './types';
+
+import { NavItem, View, Instructor, CurriculumItem } from './types';
 
 export const JJN_ORANGE = '#e34b17';
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Hjem', view: View.HOME },
+  { label: 'Om oss', view: View.ABOUT },
+  { label: 'Om Ju Jitsu', view: View.ABOUT_JUJITSU },
+  { label: 'Klubber', view: View.CLUBS },
+  { label: 'Arrangement', view: View.EVENTS },
   { label: 'Pensum', view: View.CURRICULUM },
-  { label: 'Instruktører', view: View.INSTRUCTORS },
-  { label: 'Inspirasjon', view: View.INSPIRATION },
-  { label: 'Om Oss', view: View.ABOUT },
   { label: 'Kontakt', view: View.CONTACT },
 ];
 
-export const LOGO_URL = "https://i.imgur.com/WdF1yqI.png";
-
-export const BELT_LEVELS: BeltLevel[] = [
-  {
-    color: 'bg-white text-black',
-    name: 'Hvitt Belte',
-    description: 'Starten på reisen. Fokus på fallteknikk, grunnleggende bevegelser og respekt.',
-    techniques: ['Fallteknikk (Ukemi)', 'Grunnleggende frigjøringer', 'Enkle kast']
-  },
-  {
-    color: 'bg-yellow-400 text-black',
-    name: 'Gult Belte',
-    description: 'Det første steget videre. Forståelse av balansebrudd og mer komplekse låser.',
-    techniques: ['Hoftekast (O Goshi)', 'Håndleddslåser', 'Blokkeringer']
-  },
-  {
-    color: 'bg-orange-500 text-black',
-    name: 'Oransje Belte',
-    description: 'Kroppskontroll og hurtighet. Kombinasjoner av slag, spark og kast.',
-    techniques: ['Skulderkast (Seoi Nage)', 'Kvelninger', 'Avanserte frigjøringer']
-  },
-  {
-    color: 'bg-green-600 text-white',
-    name: 'Grønt Belte',
-    description: 'Presisjon og flyt. Overganger mellom stående kamp og bakkekamp.',
-    techniques: ['Offensive kombinasjoner', 'Forsvar mot våpen (kniv)', 'Avansert bakkekamp']
-  },
-  {
-    color: 'bg-blue-600 text-white',
-    name: 'Blått Belte',
-    description: 'Dypere forståelse av prinsipper. Lederskap og instruksjon begynner å forme seg.',
-    techniques: ['Sutemi Waza (Offerkast)', 'Komplekse kontringer', 'Taktisk forståelse']
-  },
-  {
-    color: 'bg-stone-900 text-white border border-white',
-    name: 'Svart Belte',
-    description: 'En ny begynnelse. Mestring av grunnleggende teknikker og evnen til å improvisere.',
-    techniques: ['Alle pensumteknikker', 'Kata', 'Instruksjonsferdigheter']
-  }
-];
+export const LOGO_URL = "https://i.postimg.cc/gjwxz2wk/logo.png";
 
 export const INSTRUCTORS: Instructor[] = [
   {
     id: 1,
-    name: "Sensei Tor",
-    rank: "4. Dan",
-    bio: "Hovedinstruktør med over 25 års erfaring. Spesialist på kast og bakkekamp.",
-    image: "https://picsum.photos/id/338/400/500"
+    name: "Rune Schou Henrichsen",
+    rank: "8. Dan",
+    bio: "Leder av Ju jitsu Norge. Til daglig underviser han i Oslo Ju jitsuklubb og Bærum Ju jitsuklubb",
+    image: "./rune.jpg"
   },
   {
     id: 2,
-    name: "Sensei Linda",
-    rank: "2. Dan",
-    bio: "Tidligere norgesmester. Fokus på selvforsvar for kvinner og teknisk presisjon.",
+    name: "Karl Fredrik Skjørshammer",
+    rank: "7. Dan",
+    bio: "Bærum Ju Jutsu Klubb",
     image: "https://picsum.photos/id/64/400/500"
   },
   {
     id: 3,
-    name: "Senpai Erik",
-    rank: "1. Dan",
-    bio: "Leder for barne- og ungdomspartiet. Entusiastisk og motiverende.",
+    name: "Jan Erik Karlsen",
+    rank: "5. Dan",
+    bio: "Sentrum Kampsport - Sarpsborg",
     image: "https://picsum.photos/id/91/400/500"
   }
+];
+
+export const CURRICULUM_KIDS: CurriculumItem[] = [
+  { label: "Hvitt til Gult belte" },
+  { label: "Fra Gult til Blått belte" },
+  { label: "Fra Blått til 2. Brunt belte" },
+  { label: "Sort 1. og Sort 2. belte" }
+];
+
+export const CURRICULUM_ADULTS: CurriculumItem[] = [
+  { label: "Graderingssystemet 2020", subLabel: "Generell info" },
+  { label: "Pensum til 5. kyu", subLabel: "GULT BELTE" },
+  { label: "Pensum til 4. kyu", subLabel: "ORANSJE BELTE" },
+  { label: "Pensum til 3. kyu", subLabel: "GRØNT BELTE" },
+  { label: "Pensum til 2. kyu", subLabel: "BLÅTT BELTE" },
+  { label: "Pensum til 1. kyu", subLabel: "BRUNT BELTE" },
+  { label: "Pensum til 1. Dan", subLabel: "SORT BELTE" }
 ];
