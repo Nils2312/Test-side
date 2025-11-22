@@ -21,7 +21,7 @@ export const INSTRUCTORS: Instructor[] = [
     name: "Rune Schou Henrichsen",
     rank: "8. Dan",
     bio: "Leder av Ju jitsu Norge. Til daglig underviser han i Oslo Ju jitsuklubb og Bærum Ju jitsuklubb",
-    image: "./rune.jpg"
+    image: "./filer/rune.jpg"
   },
   {
     id: 2,

@@ -51,7 +51,7 @@ const App: React.FC = () => {
         </PageTransition>
       </main>
 
-      <footer className="bg-black py-12 px-4 border-t border-[#1a1a1a]">
+      <footer className="bg-black py-12 px-4 md:px-8 border-t border-[#1a1a1a]">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="text-center md:text-left flex flex-col items-center md:items-start">
             <img 
